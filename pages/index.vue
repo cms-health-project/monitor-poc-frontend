@@ -48,12 +48,12 @@ onMounted(() => {
                       {{ endpoint }}
                     </td>
                     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 align-top">
-                                <span :class="'status-label status-' + status.status.status">
-                                {{ status.status.status }}
-                                </span>
+                        <span :class="'status-label status-' + status.status.status">
+                        {{ status.status.status }}
+                        </span>
                     </td>
                     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 align-top">
-                      {{ status.status._internal.status_since }}
+                      <AtomicTimeAgo :timestamp="status.status._internal.status_since"></AtomicTimeAgo>
                     </td>
                     <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                       <ul v-if="status.errors">
@@ -80,6 +80,11 @@ onMounted(() => {
 
 .status-fail {
   @apply bg-red-500;
+  @apply text-white;
+}
+
+.status-pass {
+  @apply bg-green-500;
   @apply text-white;
 }
 </style>
