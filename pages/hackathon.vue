@@ -18,9 +18,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="mx-5">
-    <LayoutResultBox :health-checks="statusData"/>
-  </div>
+
+  Hackathon
+
 </template>
 
 <style>
@@ -30,7 +30,7 @@ onMounted(() => {
 }
 
 .status-fail {
-  @apply bg-red-400;
+  @apply bg-red-500;
   @apply text-white;
 }
 
