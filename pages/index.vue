@@ -19,7 +19,7 @@ onMounted(() => {
 
 <template>
   <div class="min-h-full">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-3">
       <div class="content-center flex items-center justify-center">
         <div class="px-4 sm:px-6 lg:px-8" style="width: 1200px">
           <div class="mt-8 flow-root">
