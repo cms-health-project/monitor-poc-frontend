@@ -6,3 +6,4 @@ export default defineNuxtConfig({
         '@nuxtjs/i18n'
     ]
 })
+
