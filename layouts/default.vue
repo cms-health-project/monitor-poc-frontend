@@ -157,11 +157,11 @@ button.btn-primary {
           </div>
           <div class="relative pb-75px flex flex-col lg:flex-row gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
             <div class="lg:w-1/2">
-              <h2 class="text-5xl text-2xl font-bold mb-4"><span class="text-blue-300">CMS Health Checks</span>  Your Safety and Compliant!</h2>
-              <p class="text-xl pb-37px text-gray-700">The CMS Health Tool helps developers make sure their <span class="text-blue-300">software</span> is working and meets necessary<span class="text-orange-300"> regulations</span>.
-                <br/>
-                <br/>
-                Don't let software issues slow down your business!</p>
+              <h2 class="text-5xl text-2xl font-bold mb-4"><span class="text-blue-400">CMS Health Checks</span> 100% Uptime doesn't cut it!</h2>
+              <p class="text-xl pb-37px text-gray-700">The CMS Health Checks project defines a <span class="text-blue-400">standard</span> for web applications to expose their app health status.<br>
+                <br>
+                Available for multiple CMSes, CMS Health Checks project could cover <span class="text-orange-300">more than 62% </span> of the web.
+              </p>
               <div class="inline-flex row space-x-4 mt-5">
                 <button @click="openLightbox" class="btn-primary px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Get Started</button>
                 <Lightbox
@@ -199,22 +199,22 @@ button.btn-primary {
           <div class="lg:w-1/2 relative mb-[200px] md:mb-20">
             <pre class="border-[10px] border-blue-300 rounded-lg bg-blue-100 rounded-md overflow-x-auto">
               <code class="text-sm font-mono">
-              "status": "pass",
-              "version": "1",
-              "serviceId": "example.org",
-              "description": "Health of WordPress website example.org",
-              "checks": {
-               "WordPress:Version": [
-                {
-                 "componentId": "dfd6cf2b-1b6e-4412-a0b8-f6f7797a60d1",
-                 "componentType": "system",
-                 "observedValue": "6.4.3",
-                 "status": "info",
-                 "time": "2018-01-17T03:36:48Z",
-                 "output": ""
-                }
-               ]
-              }
+  "status": "pass",
+  "version": "1",
+  "serviceId": "example.org",
+  "description": "Health of WordPress website example.org",
+  "checks": {
+    "WordPress:Version": [
+      {
+        "componentId": "dfd6cf2b-1b6e-4412-a0b8-f6f7797a60d1",
+        "componentType": "system",
+        "observedValue": "6.4.3",
+        "status": "info",
+        "time": "2018-01-17T03:36:48Z",
+        "output": ""
+      }
+    ]
+  }
               </code>
             </pre>
             <div class="wrapper robot-image absolute bottom-n-150 right-n-90">
@@ -222,18 +222,19 @@ button.btn-primary {
             </div>
           </div>
           <div class="column lg:w-1/2 flex flex-col">
-            <h2 class="text-5xl text-2xl font-bold mb-4">Compliance Matters for <span class="text-orange-300">Software!</span></h2>
-            <p>Keeping your software safe and compliant is essential!<br/>
-              Protect users and ensure quality following regulations.<br/>
-              With <span class="text-blue-300">CMS Health Checks</span> you can easily:<br/>
-              ✅Meet compliance standards
-              <br/>
-              ✅Maintain customer trust
-               <br/>
-              ✅Avoid penalties and security issues.
-              <br/>
-              <br/>
-              Let <span class="text-blue-300">CMS Health Checks</span> be <span class="text-orange-300">your guide</span> to a stable software future!</p>
+            <h2 class="text-5xl text-2xl font-bold mb-4">Plug in your own <span class="text-orange-300">monitoring</span> solution!</h2>
+            <p>Due to the standard IETF Health Check Specification draft, any CMS will ship the same format as a JSON-formatted HTTP Response.<br/>
+              <br>
+              If you're a <span class="text-blue-400">hosting provider</span>, you can:
+              <br>
+              <br>
+              <ul class="ps-2">
+                <li class="mb-2">✅ &nbsp;Check 100.000's of different websites at once</li>
+                <li class="mb-2">✅ &nbsp;Detect custom anomalities on each system</li>
+                <li class="mb-2">✅ &nbsp;Report website owners with your own solution</li>
+                <li class="mb-2">✅ &nbsp;Ensure a secure status update via authorized HTTP</li>
+              </ul>
+            </p>
           </div>
           <div class="ellipse-pink-bg">
             <img class="block w-100" src="/images/Ellipse.png" alt="process"/>
@@ -242,8 +243,8 @@ button.btn-primary {
 
         <div class="pb-75px pt-75px relative flex flex-col lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
           <div class="lg:w-10/12 w-full">
-            <h2 class="text-5xl pb-37px text-center text-2xl font-bold">Make sure your <span class="text-blue-300">CMS</span>  project is <span class="text-orange-300">safe</span></h2>
-            <p class="text-center pb-37px"><span class="text-blue-300">CMS Health Checks</span> in action</p>
+            <h2 class="text-5xl pb-37px text-center text-2xl font-bold">Make sure your <span class="text-blue-400">CMS</span>  project is <span class="text-orange-300">safe</span></h2>
+            <p class="text-center pb-37px"><span class="text-blue-400">CMS Health Checks</span> in action</p>
             <div class="wrapper border-[10px] border-blue-300 rounded-lg bg-blue-300">
               <div id="content" class="bg-white border-white rounded-lg bg-white">
                 <slot/>
@@ -364,7 +365,7 @@ button.btn-primary {
       </div>
       <div class="relative pt-75px pb-75px flex flex-col lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
         <div class="lg:w-10/12">
-          <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-300">CMS Health</span> Checkers</h2>
+          <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-400">CMS Health</span> Checkers</h2>
           <p class="text-center pb-37px">We will help you to monitor your content management systems and services.</p>
           <img class="w-full pt-5" src="/images/group25.png" alt="Hackers Checker 2025"/>
         </div>
@@ -377,7 +378,7 @@ button.btn-primary {
   <div class="wrapper relative">
     <div class="pt-75px pb-75px flex flex-col mb-5lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5">
       <div class="lg:w-10/12 text-center mb-5 relative">
-        <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-300">CMS Health Checks</span> simplifies<br/>Your Compliance Journey</h2>
+        <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-400">CMS Health Checks</span> simplifies<br/>Your Compliance Journey</h2>
         <p class="text-center pb-75px">Visit our <a href="" target="_blank">GitHub page</a> to explore the code</p>
         <button @click="openLightbox" class="btn-primary mb-5 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Get Started</button>
         <Lightbox
