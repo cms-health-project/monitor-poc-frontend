@@ -133,11 +133,11 @@ button.btn-primary {
           </div>
           <div class="relative pb-75px flex flex-col lg:flex-row gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
             <div class="lg:w-1/2">
-              <h2 class="text-5xl text-2xl font-bold mb-4"><span class="text-blue-300">CMSHealth Checks</span>  Your Safety and Compliant!</h2>
-              <p class="text-xl pb-37px text-gray-700">The CMS HealthCheck Tool helps developers make sure their <span class="text-blue-300">software</span> is working well and meets <span class="text-orange-300">EU regulations</span>.
+              <h2 class="text-5xl text-2xl font-bold mb-4"><span class="text-blue-300">CMS Health Checks</span>  Your Safety and Compliant!</h2>
+              <p class="text-xl pb-37px text-gray-700">The CMS Health Tool helps developers make sure their <span class="text-blue-300">software</span> is working and meets necessary<span class="text-orange-300"> regulations</span>.
                 <br/>
                 <br/>
-                Don't let software issues slow you down your website!</p>
+                Don't let software issues slow down your business!</p>
               <div class="inline-flex row space-x-4 mt-5">
                 <button class="btn-primary px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Get Started</button>
                 <a href="https://github.com/cms-health-project" target="_blank" class="icon-game btn-default items-center gap-4 flex px-4 py-2 rounded hover:bg-gray-300">
@@ -194,15 +194,15 @@ button.btn-primary {
             <h2 class="text-5xl text-2xl font-bold mb-4">Compliance Matters for <span class="text-orange-300">Software!</span></h2>
             <p>Keeping your software safe and compliant is essential!<br/>
               Protect users and ensure quality following regulations.<br/>
-              With <span class="text-blue-300">CMSHealth</span> Check, you can easily:<br/>
-              - Meet compliance standards
+              With <span class="text-blue-300">CMS Health Checks</span> you can easily:<br/>
+              ✅Meet compliance standards
               <br/>
-              - Maintain customer trust
+              ✅Maintain customer trust
                <br/>
-              - Avoid penalties and security issues.
+              ✅Avoid penalties and security issues.
               <br/>
               <br/>
-              Let <span class="text-blue-300">CMSHealth</span> be <span class="text-orange-300">your guide</span> to a healthier software future!</p>
+              Let <span class="text-blue-300">CMS Health Checks</span> be <span class="text-orange-300">your guide</span> to a stable software future!</p>
           </div>
           <div class="ellipse-pink-bg">
             <img class="block w-100" src="/images/Ellipse.png" alt="process"/>
@@ -212,7 +212,7 @@ button.btn-primary {
         <div class="pb-75px pt-75px relative flex flex-col lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
           <div class="lg:w-10/12">
             <h2 class="text-5xl pb-37px text-center text-2xl font-bold">Make sure your <span class="text-blue-300">CMS</span>  project is <span class="text-orange-300">safe</span></h2>
-            <p class="text-center pb-37px"><span class="text-blue-300">CMSHeal</span> in action</p>
+            <p class="text-center pb-37px"><span class="text-blue-300">CMS Health Checks</span> in action</p>
             <div class="wrapper border-[10px] border-blue-300 rounded-lg bg-blue-300">
               <div id="content" class="bg-white border-white rounded-lg bg-white">
                 <slot/>
@@ -333,8 +333,8 @@ button.btn-primary {
       </div>
       <div class="relative pt-75px pb-75px flex flex-col lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
         <div class="lg:w-10/12">
-          <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-300">CMSHealth</span> Checkers</h2>
-          <p class="text-center pb-37px">We will check the health status of your content management systems and services.</p>
+          <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-300">CMS Health</span> Checkers</h2>
+          <p class="text-center pb-37px">We will help you to monitor your content management systems and services.</p>
           <img class="w-full pt-5" src="/images/group25.png" alt="Hackers Checker 2025"/>
         </div>
         <div class="footer-bg">
@@ -346,7 +346,7 @@ button.btn-primary {
   <div class="wrapper relative">
     <div class="pt-75px pb-75px flex flex-col mb-5lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
       <div class="lg:w-10/12 text-center mb-5 relative">
-        <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-300">CMSHealth</span> Simplifies<br/>Your Compliance Journey</h2>
+        <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-300">CMS Health Checks</span> simplifies<br/>Your Compliance Journey</h2>
         <p class="text-center pb-75px">Visit our <a href="" target="_blank">GitHub page</a> to explore the code</p>
         <button class="btn-primary mb-5 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Get Started</button>
       </div>
