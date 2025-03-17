@@ -2,6 +2,21 @@
 
 import {Disclosure, DisclosureButton} from '@headlessui/vue'
 import {Bars3Icon, XMarkIcon} from '@heroicons/vue/24/outline'
+import { ref } from 'vue';
+import Lightbox from '~/components/Atomic/Lightbox.vue';
+
+const isLightboxOpen = ref(false);
+const lightboxContent = ref('Your lightbox content goes here. You can include text, images, forms, or any other content.');
+
+function openLightbox() {
+  isLightboxOpen.value = true;
+}
+
+function closeLightbox() {
+  isLightboxOpen.value = false;
+}
+
+
 </script>
 
 <style>
@@ -148,7 +163,14 @@ button.btn-primary {
                 <br/>
                 Don't let software issues slow down your business!</p>
               <div class="inline-flex row space-x-4 mt-5">
-                <button class="btn-primary px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Get Started</button>
+                <button @click="openLightbox" class="btn-primary px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Get Started</button>
+                <Lightbox
+                    v-if="isLightboxOpen"
+                    title="Get Started"
+                    @close="closeLightbox"
+                >
+                  {{ lightboxContent }}
+                </Lightbox>
                 <a href="https://github.com/cms-health-project" target="_blank" class="icon-game btn-default items-center gap-4 flex px-4 py-2 rounded hover:bg-gray-300">
                   <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M23.2953 15.486H8.57969C4.56875 15.486 1.32812 18.7266 1.32812 22.7375C1.32812 26.7485 4.56875 29.9891 8.57969 29.9891C10.9437 29.9891 13.0422 28.8469 14.3703 27.0938H17.5047C18.8328 28.8469 20.9312 29.9891 23.2953 29.9891C27.3062 29.9891 30.5469 26.7485 30.5469 22.7375C30.5469 18.7266 27.3062 15.486 23.2953 15.486Z" fill="white"/>
@@ -174,7 +196,7 @@ button.btn-primary {
 
 
         <div class="pb-75px pt-75px relative flex flex-col lg:flex-row gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
-          <div class="lg:w-1/2 relative mb-20">
+          <div class="lg:w-1/2 relative mb-[200px] md:mb-20">
             <pre class="border-[10px] border-blue-300 rounded-lg bg-blue-100 rounded-md overflow-x-auto">
               <code class="text-sm font-mono">
               "status": "pass",
@@ -357,7 +379,16 @@ button.btn-primary {
       <div class="lg:w-10/12 text-center mb-5 relative">
         <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-300">CMS Health Checks</span> simplifies<br/>Your Compliance Journey</h2>
         <p class="text-center pb-75px">Visit our <a href="" target="_blank">GitHub page</a> to explore the code</p>
-        <button class="btn-primary mb-5 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Get Started</button>
+        <button @click="openLightbox" class="btn-primary mb-5 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Get Started</button>
+        <Lightbox
+            v-if="isLightboxOpen"
+            title="Get Started"
+            @close="closeLightbox"
+        >
+          {{ lightboxContent }}
+        </Lightbox>
+
+
       </div>
     </div>
     <div class="footer-bg">
