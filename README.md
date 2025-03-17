@@ -37,6 +37,11 @@ yarn dev
 # bun
 bun run dev
 ```
+## Production files via upload
+```bash
+# npm
+npm run generate
+```
 
 ## Production
 
