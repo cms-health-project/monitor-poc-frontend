@@ -161,9 +161,9 @@ a {
       </Disclosure>
       <div class="center">
         <div class="wrapper relative">
-          <div class="relative pb-75px flex flex-col lg:flex-row gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
-            <img class="block w-auto lg:hidden" src="/images/logo-wide.png" alt="Your Company"/>
-            <img class="hidden h-20 w-auto lg:block" src="/images/logo-wide.png" alt="Your Company"/>
+          <div class="relative pb-75px flex flex-col lg:flex-row gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-5">
+            <img class="mt-5 block w-auto lg:hidden" src="/images/logo-wide.png" alt="Your Company"/>
+            <img class="mt-5 hidden h-20 w-auto lg:block" src="/images/logo-wide.png" alt="Your Company"/>
           </div>
           <div class="relative pb-75px flex flex-col lg:flex-row gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
             <div class="lg:w-1/2">

@@ -17,21 +17,26 @@ a:hover {
           </svg>
         </button>
       </div>
-      <div class="grid grid-cols-2 gap-4">
-        <a href="https://git.drupalcode.org/project/cms_health_check" target="_blank">
-          <img class="m-auto max-h-[150px] block" src="/images/drupal.svg" alt="drupal"/>
+      <div class="grid gap-4">
+        <a class="text-inherit text-lg flex flex-row items-center gap-4" href="https://git.drupalcode.org/project/cms_health_check" target="_blank">
+          <img class="max-h-[150px] max-w-[150px] block" src="/images/drupal.svg" alt="drupal"/>
+          Implementation Drupal
         </a>
-        <a href="https://github.com/o-ba/health-checks" target="_blank">
-          <img class="m-auto max-h-[150px] block" src="/images/typo3.png" alt="typo3"/>
+        <a class="text-inherit text-lg flex flex-row items-center gap-4" href="https://github.com/o-ba/health-checks" target="_blank">
+          <img class="max-h-[150px] max-w-[150px] block" src="/images/typo3.png" alt="typo3"/>
+          Implementation Typo3
         </a>
-        <a href="https://github.com/cms-health-project/psr15-implementation" target="_blank">
-          <img class="m-auto max-h-[150px] block" src="/images/php.png" alt="php"/>
+        <a class="text-inherit text-lg flex flex-row items-center gap-4" href="https://github.com/cms-health-project/psr15-implementation" target="_blank">
+          <img class="max-h-[150px] max-w-[150px] block" src="/images/php.png" alt="php"/>
+          Implementation Psr15
         </a>
-        <a href="https://github.com/cms-health-project/wordpress-plugin" target="_blank">
-          <img class="m-auto max-h-[150px] block" src="/images/wordpress.png" alt="wordpress"/>
+        <a class="text-inherit text-lg flex flex-row items-center gap-4" href="https://github.com/cms-health-project/wordpress-plugin" target="_blank">
+          <img class="max-h-[150px] max-w-[150px] block" src="/images/wordpress.png" alt="wordpress"/>
+          Implementation Wordpress
         </a>
-        <a href="https://github.com/cms-health-project/health-sulu" target="_blank">
-          <img class="m-auto max-h-[150px] block" src="/images/zulu.png" alt="zulu"/>
+        <a class="text-inherit text-lg flex flex-row items-center gap-4" href="https://github.com/cms-health-project/health-sulu" target="_blank">
+          <img class="max-h-[150px] max-w-[150px] block" src="/images/zulu.png" alt="sulu"/>
+          Implementation Sulu
         </a>
       </div>
       <div class="mt-6 text-right">
