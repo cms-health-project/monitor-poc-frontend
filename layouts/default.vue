@@ -191,7 +191,7 @@ a {
                     <path d="M14.6359 23.2156C14.4246 23.2156 14.2219 23.2996 14.0724 23.449C13.923 23.5985 13.8391 23.8012 13.8391 24.0125C13.8391 24.2239 13.923 24.4265 14.0724 24.576C14.2219 24.7254 14.4246 24.8094 14.6359 24.8094C14.8473 24.8094 15.05 24.7254 15.1994 24.576C15.3488 24.4265 15.4328 24.2239 15.4328 24.0125C15.4328 23.8012 15.3488 23.5985 15.1994 23.449C15.05 23.2996 14.8473 23.2156 14.6359 23.2156ZM17.0266 23.2156C16.8152 23.2156 16.6125 23.2996 16.4631 23.449C16.3136 23.5985 16.2297 23.8012 16.2297 24.0125C16.2297 24.2239 16.3136 24.4265 16.4631 24.576C16.6125 24.7254 16.8152 24.8094 17.0266 24.8094C17.2379 24.8094 17.4406 24.7254 17.59 24.576C17.7395 24.4265 17.8234 24.2239 17.8234 24.0125C17.8234 23.8012 17.7395 23.5985 17.59 23.449C17.4406 23.2996 17.2379 23.2156 17.0266 23.2156Z" fill="#330656"/>
                   </svg>
 
-                  Explore the code
+                  Explore the project
                 </a>
               </div>
             </div>
@@ -390,7 +390,7 @@ a {
     <div class="pt-75px pb-75px flex flex-col mb-5lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5">
       <div class="lg:w-10/12 text-center mb-5 relative">
         <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-400">CMS Health Checks</span> simplifies<br/>Your Compliance Journey</h2>
-        <p class="text-center pb-75px">Visit our <a href="" target="_blank">GitHub page</a> to explore the code</p>
+        <p class="text-center pb-75px">Visit our <a href="" target="_blank">GitHub page</a> to explore the project</p>
         <button @click="openLightbox" class="btn-primary mb-5 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Get Started</button>
         <Lightbox
             v-if="isLightboxOpen"
