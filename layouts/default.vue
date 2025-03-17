@@ -113,6 +113,16 @@ button.btn-primary {
   }
 }
 
+a {
+  color: rgb(253 186 116);
+}
+
+.btn-default {
+  &:hover {
+    background: transparent;
+  }
+}
+
 </style>
 
 

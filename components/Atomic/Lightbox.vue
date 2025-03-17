@@ -1,5 +1,13 @@
+<style>
+.lightbox {
+a:hover {
+  background: #74B9FF;
+}
+}
+</style>
+
 <template>
-  <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" @click.self="close">
+  <div class="lightbox fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" @click.self="close">
     <div class="bg-white rounded-lg p-6 max-w-md w-full max-h-[90vh] overflow-auto">
       <div class="flex justify-between items-center mb-4">
         <h2 class="text-xl font-bold">{{ title || 'Information' }}</h2>
@@ -9,12 +17,22 @@
           </svg>
         </button>
       </div>
-      <div>
-        <a href="https://github.com/o-ba/health-checks" target="_blank">https://github.com/o-ba/health-checks</a>
-        <a href="https://git.drupalcode.org/project/cms_health_check" target="_blank">https://git.drupalcode.org/project/cms_health_check</a>
-        <a href="https://github.com/cms-health-project/psr15-implementation" target="_blank">https://github.com/cms-health-project/psr15-implementation</a>
-        <a href="https://github.com/cms-health-project/wordpress-plugin" target="_blank">https://github.com/cms-health-project/wordpress-plugin</a>
-        <a href="https://github.com/cms-health-project/health-sulu" target="_blank">https://github.com/cms-health-project/health-sulu</a>
+      <div class="grid grid-cols-2 gap-4">
+        <a href="https://git.drupalcode.org/project/cms_health_check" target="_blank">
+          <img class="m-auto max-h-[150px] block" src="/images/drupal.svg" alt="drupal"/>
+        </a>
+        <a href="https://github.com/o-ba/health-checks" target="_blank">
+          <img class="m-auto max-h-[150px] block" src="/images/typo3.png" alt="typo3"/>
+        </a>
+        <a href="https://github.com/cms-health-project/psr15-implementation" target="_blank">
+          <img class="m-auto max-h-[150px] block" src="/images/php.png" alt="php"/>
+        </a>
+        <a href="https://github.com/cms-health-project/wordpress-plugin" target="_blank">
+          <img class="m-auto max-h-[150px] block" src="/images/wordpress.png" alt="wordpress"/>
+        </a>
+        <a href="https://github.com/cms-health-project/health-sulu" target="_blank">
+          <img class="m-auto max-h-[150px] block" src="/images/zulu.png" alt="zulu"/>
+        </a>
       </div>
       <div class="mt-6 text-right">
         <button @click="close" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
