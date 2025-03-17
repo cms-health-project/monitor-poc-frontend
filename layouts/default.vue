@@ -111,6 +111,17 @@ button.btn-primary {
   .process-bg {
     bottom: -80px;
   }
+
+  .header {
+    bottom: auto;
+    top: 0;
+  }
+}
+@media (max-width: 1400px) {
+  .footer-bg.header {
+    bottom: auto;
+    top: 0;
+  }
 }
 
 a {
@@ -199,7 +210,7 @@ a {
               <img class="w-full" src="/images/partners_logos.png" alt="Partner Logos"/>
             </div>
           </div>
-          <div class="footer-bg">
+          <div class="footer-bg header">
             <img class="block w-full" src="/images/header.png" alt="process"/>
           </div>
         </div>
