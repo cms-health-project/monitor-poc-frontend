@@ -89,11 +89,20 @@ button.btn-primary {
   padding-bottom: 37px;
 }
 
+@media (max-width: 1024px) {
+   .robot-image {
+     right: 0 !important;
+   }
+  .process-bg {
+    bottom: -80px;
+  }
+}
+
 </style>
 
 
 <template>
-  <div id="layout-portal">
+  <div id="layout-portal" class="overflow-hidden">
     <div class="min-h-full">
       <Disclosure as="nav" class="hidden bg-white">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
@@ -125,10 +134,10 @@ button.btn-primary {
           </div>
         </div>
       </Disclosure>
-      <div class="py-10 center">
+      <div class="center">
         <div class="wrapper relative">
           <div class="relative pb-75px flex flex-col lg:flex-row gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
-            <img class="block h-20 w-auto lg:hidden" src="/images/logo-wide.png" alt="Your Company"/>
+            <img class="block w-auto lg:hidden" src="/images/logo-wide.png" alt="Your Company"/>
             <img class="hidden h-20 w-auto lg:block" src="/images/logo-wide.png" alt="Your Company"/>
           </div>
           <div class="relative pb-75px flex flex-col lg:flex-row gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
@@ -186,7 +195,7 @@ button.btn-primary {
               }
               </code>
             </pre>
-            <div class="wrapper absolute bottom-n-150 right-n-90">
+            <div class="wrapper robot-image absolute bottom-n-150 right-n-90">
               <img class="w-full" src="/images/robots.png" alt="robots check"/>
             </div>
           </div>
@@ -210,14 +219,14 @@ button.btn-primary {
         </div>
 
         <div class="pb-75px pt-75px relative flex flex-col lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
-          <div class="lg:w-10/12">
+          <div class="lg:w-10/12 w-full">
             <h2 class="text-5xl pb-37px text-center text-2xl font-bold">Make sure your <span class="text-blue-300">CMS</span>  project is <span class="text-orange-300">safe</span></h2>
             <p class="text-center pb-37px"><span class="text-blue-300">CMS Health Checks</span> in action</p>
             <div class="wrapper border-[10px] border-blue-300 rounded-lg bg-blue-300">
               <div id="content" class="bg-white border-white rounded-lg bg-white">
                 <slot/>
               </div>
-              <div class="bg-white border-white rounded-lg bg-blue-100 flex flex-col lg:flex-row gap-6 mx-auto max-w-7xl p-4 sm:px-6 lg:px-8">
+              <div class="bg-blue-100 border-white rounded-lg bg-blue-100 flex flex-col lg:flex-row gap-6 mx-auto max-w-7xl p-4 sm:px-6 lg:px-8">
                 <div class="column lg:w-1/3 flex flex-col">
                   <p>What you get:</p>
                 </div>
@@ -344,7 +353,7 @@ button.btn-primary {
     </div>
   </div>
   <div class="wrapper relative">
-    <div class="pt-75px pb-75px flex flex-col mb-5lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
+    <div class="pt-75px pb-75px flex flex-col mb-5lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5">
       <div class="lg:w-10/12 text-center mb-5 relative">
         <h2 class="text-5xl text-center text-2xl font-bold mb-4"><span class="text-blue-300">CMS Health Checks</span> simplifies<br/>Your Compliance Journey</h2>
         <p class="text-center pb-75px">Visit our <a href="" target="_blank">GitHub page</a> to explore the code</p>

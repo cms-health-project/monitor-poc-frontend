@@ -1,6 +1,7 @@
 export function useApi() {
 
     const DOMAIN = 'https://healthcheck.friendsofwp.com'
+    //const DOMAIN = 'https://api-monitor.cloudfest.buerk.tech'
 
     const URL_HEALTH = DOMAIN + '/api/v1/user/{userId}'
 
