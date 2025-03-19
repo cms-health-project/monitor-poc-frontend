@@ -288,13 +288,7 @@ a {
                         ✅ Simple Fixes: Get straightforward solutions
                       </li>
                       <li>
-                        ✅ Detailed Insights: View specific configuration details
-                      </li>
-                      <li>
                         ⚠️ Enhanced Security: Protect against potential risks
-                      </li>
-                      <li>
-                        ✅ Improved Performance: Boost speed and reliability
                       </li>
                     </ul>
                   </p>
@@ -304,84 +298,6 @@ a {
           </div>
           <div class="ellipse-bg">
             <img class="block w-100" src="/images/Ellipse.png" alt="process"/>
-          </div>
-        </div>
-        <h2 class="pt-75px text-5xl text-center text-2xl font-bold mb-4">Receive <span class="text-orange-300">Easy <br/>to interpret</span> data</h2>
-        <div class="relative pt-37px pb-75px flex flex-col lg:flex-row items-center justify-center gap-6 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-5 mb-5">
-          <div class="column lg:w-1/3 flex flex-col bg-white border-white rounded-lg box-shadow p-5">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_2_89)">
-                <path d="M25 45.8334C13.4938 45.8334 4.16667 36.5063 4.16667 25.0001C4.16667 13.4938 13.4938 4.16675 25 4.16675C36.5063 4.16675 45.8333 13.4938 45.8333 25.0001C45.8333 36.5063 36.5063 45.8334 25 45.8334ZM25 41.6668C29.4203 41.6668 33.6595 39.9108 36.7851 36.7852C39.9107 33.6596 41.6667 29.4204 41.6667 25.0001C41.6667 20.5798 39.9107 16.3406 36.7851 13.215C33.6595 10.0894 29.4203 8.33342 25 8.33342C20.5797 8.33342 16.3405 10.0894 13.2149 13.215C10.0893 16.3406 8.33334 20.5798 8.33334 25.0001C8.33334 29.4204 10.0893 33.6596 13.2149 36.7852C16.3405 39.9108 20.5797 41.6668 25 41.6668ZM22.9229 33.3334L14.0833 24.4938L17.0292 21.548L22.9229 27.4417L34.7063 15.6563L37.6542 18.6022L22.9229 33.3334Z" fill="#22C55D"/>
-              </g>
-              <defs>
-                <clipPath id="clip0_2_89">
-                  <rect width="50" height="50" fill="white"/>
-                </clipPath>
-              </defs>
-            </svg>
-            What worked:
-            <ol>
-              <li>
-                The updates were applied successfully.
-              </li>
-              <li>
-                Performance improved across all users.
-              </li>
-              <li>
-                Users information is safe.
-              </li>
-            </ol>
-          </div>
-          <div class="column lg:w-1/3 flex flex-col bg-white border-white rounded-lg box-shadow p-5">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_2_96)">
-                <path d="M25 45.8334C13.4938 45.8334 4.16669 36.5063 4.16669 25.0001C4.16669 13.4938 13.4938 4.16675 25 4.16675C36.5063 4.16675 45.8334 13.4938 45.8334 25.0001C45.8334 36.5063 36.5063 45.8334 25 45.8334ZM25 41.6668C29.4203 41.6668 33.6595 39.9108 36.7851 36.7852C39.9107 33.6596 41.6667 29.4204 41.6667 25.0001C41.6667 20.5798 39.9107 16.3406 36.7851 13.215C33.6595 10.0894 29.4203 8.33342 25 8.33342C20.5797 8.33342 16.3405 10.0894 13.2149 13.215C10.0893 16.3406 8.33335 20.5798 8.33335 25.0001C8.33335 29.4204 10.0893 33.6596 13.2149 36.7852C16.3405 39.9108 20.5797 41.6668 25 41.6668ZM25 22.0543L30.8917 16.1605L33.8396 19.1084L27.9459 25.0001L33.8396 30.8918L30.8917 33.8397L25 27.9459L19.1084 33.8397L16.1604 30.8918L22.0542 25.0001L16.1604 19.1084L19.1084 16.1605L25 22.0543Z" fill="#FF0000"/>
-              </g>
-              <defs>
-                <clipPath id="clip0_2_96">
-                  <rect width="50" height="50" fill="white"/>
-                </clipPath>
-              </defs>
-            </svg>
-            What didn’t work:
-            <ol>
-              <li>
-                Vulnerability was found in the code
-              </li>
-              <li>
-                Loading speed was slower than expected.
-              </li>
-              <li>
-                features X Y Z were inaccessible.
-              </li>
-            </ol>
-          </div>
-          <div class="column lg:w-1/3 flex flex-col bg-white border-white rounded-lg box-shadow p-5">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_2_103)">
-                <path d="M30.4166 16.6668H43.75C44.855 16.6668 45.9149 17.1057 46.6963 17.8871C47.4777 18.6685 47.9166 19.7283 47.9166 20.8334V25.2168C47.9172 25.7613 47.811 26.3006 47.6041 26.8043L41.1562 42.4605C40.9989 42.8422 40.7318 43.1686 40.3887 43.3982C40.0456 43.6278 39.642 43.7503 39.2291 43.7501H4.16665C3.61411 43.7501 3.08421 43.5306 2.69351 43.1399C2.30281 42.7492 2.08331 42.2193 2.08331 41.6668V20.8334C2.08331 20.2809 2.30281 19.751 2.69351 19.3603C3.08421 18.9696 3.61411 18.7501 4.16665 18.7501H11.4208C11.7543 18.7502 12.083 18.6702 12.3792 18.5168C12.6754 18.3635 12.9304 18.1412 13.1229 17.8688L24.4833 1.77092C24.6269 1.5674 24.8387 1.42209 25.0803 1.36131C25.3218 1.30054 25.5772 1.32834 25.8 1.43967L29.5791 3.32925C30.6427 3.86084 31.4923 4.74032 31.9869 5.82158C32.4815 6.90283 32.5912 8.12076 32.2979 9.273L30.4166 16.6668ZM14.5833 22.0584V39.5834H37.8333L43.75 25.2168V20.8334H30.4166C29.7821 20.8333 29.1559 20.6883 28.5859 20.4094C28.0159 20.1305 27.5171 19.725 27.1276 19.224C26.7382 18.723 26.4683 18.1397 26.3386 17.5185C26.2088 16.8973 26.2227 16.2547 26.3791 15.6397L28.2604 8.248C28.3193 8.01743 28.2974 7.77366 28.1985 7.55723C28.0996 7.3408 27.9295 7.16477 27.7166 7.05842L26.3396 6.37092L16.5271 20.2709C16.0062 21.0084 15.3396 21.6126 14.5833 22.0584ZM10.4166 22.9168H6.24998V39.5834H10.4166V22.9168Z" fill="#74B9FF"/>
-              </g>
-              <defs>
-                <clipPath id="clip0_2_103">
-                  <rect width="50" height="50" fill="white"/>
-                </clipPath>
-              </defs>
-            </svg>
-            Recommendations
-            <ol>
-              <li>
-                Address accessibility issues promptly.
-              </li>
-              <li>
-                Investigate loading speed issues.
-              </li>
-              <li>
-                Contact users to insert 2 factor authentication
-              </li>
-            </ol>
-          </div>
-          <div class="process-bg">
-            <img class="block w-100" src="/images/process.png" alt="process"/>
           </div>
         </div>
       </div>
